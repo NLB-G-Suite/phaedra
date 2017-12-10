@@ -23,21 +23,36 @@ if __name__ == '__main__':
     authorsUnique = Set()
     authors = []
 
+    sentencesUnique = Set()
+    sentences = []
+
     lines = text.splitlines()
     for line in lines:
         if ':' in line:
             splitline = line.split(':')
             author = splitline[0]
-            text = splitline[1]
+            text = splitline[1][1:]
             matched = False
             for user in blocked_users:
                 if user in author:
                     matched = True
 
             if not matched:
-                print(author)
+                print(text)
                 authorsUnique.add(author)
                 authors.append(author)
 
+                sentencesUnique.add(text)
+                sentences.append(text)
+
     print('unique authors: ' + str(len(authorsUnique)))
     print('authors: ' + str(len(authors)))
+
+    print('unique sentences: ' + str(len(sentencesUnique)))
+    print('sentences: ' + str(len(sentences)))
+
+    textsFile = open('sentences.txt', 'w')
+    for sentence in sentences:
+        textsFile.write(sentence + '\n')
+    textsFile.flush()
+    textsFile.close()

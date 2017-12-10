@@ -1,6 +1,8 @@
 import os
 from sets import Set
 
+# split -l $[ $(wc -l sentences_unique.txt|cut -d" " -f1) * 85 / 100 ] sentences_unique.txt
+
 def doc_to_text_catdoc(filename):
     (fi, fo, fe) = os.popen3('catdoc -w "%s"' % filename)
     fi.close()
@@ -56,3 +58,9 @@ if __name__ == '__main__':
         textsFile.write(sentence + '\n')
     textsFile.flush()
     textsFile.close()
+
+    textsFile2 = open('sentences_unique.txt', 'w')
+    for sentence in sentencesUnique:
+        textsFile2.write(sentence + '\n')
+    textsFile2.flush()
+    textsFile2.close()

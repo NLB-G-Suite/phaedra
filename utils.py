@@ -15,3 +15,11 @@ def save_all(filename, authors):
 
     file.close()
     print('Saved to ' + filename)
+    
+def save_posts(filename, posts):
+    file = open(filename, 'w')
+    for post in posts:
+        file.write(post)
+        file.write('\n')
+    file.close()
+    print('Saved to ' + filename)

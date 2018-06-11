@@ -17,7 +17,7 @@ def save_all(filename, authors):
     print('Saved to ' + filename)
     
 def save_posts(filename, posts):
-    file = open(filename, 'w')
+    file = open(filename, 'w', encoding='utf-8')
     for post in posts:
         file.write(post)
         file.write('\n')

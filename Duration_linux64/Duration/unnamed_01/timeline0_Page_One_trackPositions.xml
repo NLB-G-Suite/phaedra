@@ -1,0 +1,38 @@
+<positions>
+    <element name="curves">
+        <x>0.000000000</x>
+        <y>142.000000000</y>
+        <width>1916.000000000</width>
+        <height>94.000000000</height>
+    </element>
+    <element name="curves_0">
+        <x>0.000000000</x>
+        <y>260.000000000</y>
+        <width>1916.000000000</width>
+        <height>106.000000000</height>
+    </element>
+    <element name="curves_1">
+        <x>0.000000000</x>
+        <y>390.000000000</y>
+        <width>1916.000000000</width>
+        <height>92.000000000</height>
+    </element>
+    <element name="curves_2">
+        <x>0.000000000</x>
+        <y>506.000000000</y>
+        <width>1916.000000000</width>
+        <height>115.000000000</height>
+    </element>
+    <element name="curves_3">
+        <x>0.000000000</x>
+        <y>645.000000000</y>
+        <width>1916.000000000</width>
+        <height>128.000000000</height>
+    </element>
+    <element name="flags">
+        <x>0.000000000</x>
+        <y>142.000000000</y>
+        <width>1300.000000000</width>
+        <height>40.000000000</height>
+    </element>
+</positions>

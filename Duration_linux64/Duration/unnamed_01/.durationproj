@@ -1,0 +1,74 @@
+<tracks>
+    <page>
+        <name>Page One</name>
+        <track>
+            <type>Curves</type>
+            <xmlFileName>curves_.xml</xmlFileName>
+            <trackName>curves</trackName>
+            <displayName>group_01</displayName>
+            <sendOSC>1</sendOSC>
+            <receiveOSC>1</receiveOSC>
+            <min>0.000000000</min>
+            <max>1.000000000</max>
+        </track>
+        <track>
+            <type>Curves</type>
+            <xmlFileName>curves_0_.xml</xmlFileName>
+            <trackName>curves_0</trackName>
+            <displayName>group_02</displayName>
+            <sendOSC>1</sendOSC>
+            <receiveOSC>1</receiveOSC>
+            <min>0.000000000</min>
+            <max>1.000000000</max>
+        </track>
+        <track>
+            <type>Curves</type>
+            <xmlFileName>curves_1_.xml</xmlFileName>
+            <trackName>curves_1</trackName>
+            <displayName>group_03</displayName>
+            <sendOSC>1</sendOSC>
+            <receiveOSC>1</receiveOSC>
+            <min>0.000000000</min>
+            <max>1.000000000</max>
+        </track>
+        <track>
+            <type>Curves</type>
+            <xmlFileName>curves_2_.xml</xmlFileName>
+            <trackName>curves_2</trackName>
+            <displayName>group_04</displayName>
+            <sendOSC>1</sendOSC>
+            <receiveOSC>1</receiveOSC>
+            <min>0.000000000</min>
+            <max>1.000000000</max>
+        </track>
+        <track>
+            <type>Curves</type>
+            <xmlFileName>curves_3_.xml</xmlFileName>
+            <trackName>curves_3</trackName>
+            <displayName>group_05</displayName>
+            <sendOSC>1</sendOSC>
+            <receiveOSC>1</receiveOSC>
+            <min>0.000000000</min>
+            <max>1.000000000</max>
+        </track>
+    </page>
+</tracks>
+<timelineSettings>
+    <duration>00:00:30:000</duration>
+    <playhead>00:00:29:880</playhead>
+    <inpoint>00:00:00:000</inpoint>
+    <outpoint>00:00:30:000</outpoint>
+    <loop>0</loop>
+</timelineSettings>
+<projectSettings>
+    <useBPM>0</useBPM>
+    <bpm>120.000000000</bpm>
+    <snapToBPM>96</snapToBPM>
+    <snapToKeys>231</snapToKeys>
+    <oscInEnabled>1</oscInEnabled>
+    <oscOutEnabled>1</oscOutEnabled>
+    <oscInPort>12346</oscInPort>
+    <oscIP>localhost</oscIP>
+    <oscOutPort>12345</oscOutPort>
+    <oscRate>30.000000000</oscRate>
+</projectSettings>
